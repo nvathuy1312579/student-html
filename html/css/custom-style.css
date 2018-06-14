@@ -1,0 +1,284 @@
+/* The name: athena custom style
+ * Author: tram.pham 
+ * Created date: May 28, 2018 
+ */
+ 
+ /* Table of content 
+  * padding
+  * icon
+  * background 
+  * color 
+  */
+
+header {
+    background-color: #fff;
+}
+header.sticky, header.sticky#contacts{ 
+	background-color:#fff; 
+	opacity:1;
+}
+
+header.sticky {
+    position: static;
+}
+
+.main-menu > ul > li > a {
+    color: #222222;
+}
+
+.sub_header.bg_2 {
+    background-image: url(../img/home/banner.jpg);
+}  
+
+.pt-100 { 
+    padding: 350px 0 40px 0;
+}
+.box_style_1 {
+    padding: 70px 30px 50px 30px;
+}
+
+/* icon */ 
+.student-icon img { 
+    height: 60px;
+    width: 60px;
+    position: relative;
+    float: left;
+    top: 3rem;
+}
+.about-icon img {
+    width: 60px;
+    height: auto;
+}
+
+.team img { 
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.partners img {
+    height: 150px;
+    width: 240px;
+}
+
+.student-journey img {
+    height: 80px;    
+}
+
+.footer a {
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.st-dark-bg {
+    background-color: #222f38;
+}
+
+.st-dark-bg h2 {
+    color: #ffffff;
+}
+a.button_intro, .button_intro { 
+    background: #ffbb49;
+}
+a.button_intro:hover, .button_intro:hover {
+    color: #ffbb49 !important;
+}
+a.button_outline, .button_outline {
+    border: 2px solid #222222;
+    color: #222222;   
+}
+.main-menu ul ul, .main-menu ul .menu-wrapper {
+    border-top: 2px solid #ffbb49;
+}
+.main-menu ul ul::before { 
+    color: #ffbb49;
+    border-bottom-color: #ffbb49;
+}
+.main-menu ul li a:hover, a.show-submenu:hover, a.show-submenu:focus, a.show-submenu-mega:hover, a.show-submenu-mega:focus {
+    color: #ffbb49 !important;
+}
+
+.short_info p {
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    top: 60%;
+    left: 20px;
+}
+
+.short_info h3 {
+    color: #fff;
+    position: relative;
+    top: 60%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+}
+
+.img_list {
+    background: #004c66;
+}
+
+.short_info img {
+    width: auto;
+    height: 90px;
+    position: absolute;
+    left: 37%;
+    top: 25px;
+}
+
+.school-country img {
+    height: 20px;
+    top: 81%;
+    left: 20%;
+}
+
+ul.add_info li { 
+    border: none;
+}
+
+a.button, .button {
+    background: linear-gradient(to right, rgba(0,140,116,1), rgba(0,76,102,1))
+}
+
+h3.title a {
+    color: #222222; 
+    font-weight: 600;
+}
+.list_news_tabs h3 {
+    margin-top: 10px;
+}
+input.form-control#email_newsletter {
+    width: 80%;
+}
+#newsletter button {
+    color: #eaeaea;
+    /* background-color: #fff; */
+    border: solid 2px #eaeaea;
+    position: relative;
+    left: -10px;
+    height: 49px;
+    width: 50px;
+    background: #fff;
+    font-size: 18px;
+}
+
+/* Login */
+.reset_password {
+    text-align: right;
+    color: #fff;
+}
+
+.reset_password a:hover, a:focus {    
+    color: #fff;
+    text-decoration: underline;
+}
+
+.popup-form#myLogin p, 
+.popup-form#myLogin div, 
+.popup-form#myLogin h2, 
+.popup-form#myLogin h4, 
+.popup-form#myLogin i,
+.modal-content h3,
+.modal-dialog div,
+#resetPassword h2,
+#resetPassword p,
+#reset_password div
+{
+    color: #fff;
+}
+
+.popup-form#myLogin {
+    margin: 20px auto;
+}
+
+#login button {
+    background-color: #ffbb49;
+    margin-top: 20px;
+}
+
+#login button:hover {
+    color: #fff;
+}
+
+#resetPassword button {
+    background-color: #ffbb49;
+}
+
+#getStarted_1 .modal-dialog{
+    max-width: 85%;
+}
+
+#getStarted_1 .modal-content{
+    padding: 80px 35px;
+}
+
+#getStarted_2 .modal-dialog{
+    max-width: 85%;
+}
+
+.indent_title_in h3{
+    text-align: left;
+}
+.indent_title_in i {
+    color: #BABEC1;
+    transform: translate(0, -10px);
+}
+
+.input_form_getStarted {
+    background-color: transparent;
+}
+
+.input_form_getStarted .form-control {
+    color: #BABEC1;
+}
+
+.styled-select select {
+    width: 100%;
+}
+
+#introduce .wrapper_indent {
+    padding: 0 80px;
+    text-align: left;    
+}
+
+#introduce .btn_next {
+    text-align: right;
+}
+.list_courses_apply {
+    padding: 20px 0;
+}
+.list_courses_apply .getStarted{
+    text-align: left;
+}
+
+.getStarted h4, label{
+    color: #BABEC1
+}
+
+/* Student */
+.student-start {
+    padding: 8% 10% !important;
+}
+.student-start h2{
+    font-size: 32px;
+    margin: 50px 0;
+    color: #fff;
+}
+
+.student-question {
+    margin: 25px 0;
+    border-left: 1px solid lightgrey;
+}
+
+.student-question h3 {
+    margin-top: 0;
+}
+
+.student-question p {
+    margin-bottom: 0;
+}
